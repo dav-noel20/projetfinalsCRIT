@@ -1,0 +1,43 @@
+body {
+    background-color:black;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.lamp-container {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+#lampButton img {
+    cursor: pointer;
+}
+
+#lampOff {
+    display: inline-block;
+}
+
+#lampOn {
+    display: none;
+}

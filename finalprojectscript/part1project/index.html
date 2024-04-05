@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Lamp</title>
+    <link rel="stylesheet" href="/part1project/style.css">
+</head>
+<body>
+    <header>
+        <h1>lampe digitale</h1>
+    </header>
+    <main>
+        <div class="lamp-container">
+            <img id="lampOff" src="/part1project/depositphotos_109160996-stock-illustration-classic-light-bulb-on-dark.jpg" alt="Lampe éteinte">
+            <img id="lampOn" src="/part1project/photo-joel-saget-afp-1470241593.jpg" alt="Lampe allumée">
+        </div>
+        <div id="lampButton">
+            <img id="lampButtonOff" src="/part1project/off.jpg" alt="Lampe éteinte" onclick="toggleLamp()">
+            <img id="lampButtonOn" src="/part1project/on.jpg" alt="Lampe allumée" style="display:none;" onclick="toggleLamp()">
+        </div>
+    </main>
+    <audio id="lampSound" src="/part1project/clap.mp3"></audio>
+    <script src="/part1project/main.js" ></script>
+</body>
+</html>

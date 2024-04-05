@@ -1,0 +1,33 @@
+body {
+    background-color:darkgrey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: yellow;
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+}
