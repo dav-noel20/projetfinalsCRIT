@@ -8,13 +8,13 @@ function toggleLamp() {
     if (lampOff.style.display === 'none') {
         lampOff.style.display = 'inline-block';
         lampOn.style.display = 'none';
-        lampButtonOff.style.display = 'inline-block';
-        lampButtonOn.style.display = 'none';
+        lampButtonOff.style.display = 'none';
+        lampButtonOn.style.display = 'inline-block';
     } else {
         lampOff.style.display = 'none';
         lampOn.style.display = 'inline-block';
-        lampButtonOff.style.display = 'none';
-        lampButtonOn.style.display = 'inline-block';
+        lampButtonOff.style.display = 'inline-block';
+        lampButtonOn.style.display = 'none';
     }
     playSound(lampSound);
 }
